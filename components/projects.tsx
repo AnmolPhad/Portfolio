@@ -92,12 +92,15 @@ export function Projects() {
                     size="sm"
                     className="bg-accent hover:bg-accent/90 text-accent-foreground flex-1 sm:flex-none text-xs sm:text-sm"
                   >
+                     <a href={project.link} target="_blank" rel="noopener noreferrer"></a>
                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                     Live Demo
                   </Button>
                 )}
                 {project.github && (
+
                   <Button variant="outline" size="sm" className="flex-1 sm:flex-none text-xs sm:text-sm bg-transparent">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer"></a>
                     <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                     Code
                   </Button>
