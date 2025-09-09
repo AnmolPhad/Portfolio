@@ -6,7 +6,7 @@ Your Name - [anmolphad60@gmail.com](mailto:anmolphad60@gmail.com)
 
 Project Link: [https://github.com/AnmolPhad/portfolio](https://github.com/AnmolPhad/portfolio)
 
-Live Demo: [https://portfolio-flame-gamma-mlhsdxm298.vercel.app/](https://portfolio-flame-gamma-mlhsdxm298.vercel.app/)
+Live Demo: [https://portfolio-seven-red-71.vercel.app/](https://portfolio-seven-red-71.vercel.app/)
 
 ## 🛠️ Tech Stack
 

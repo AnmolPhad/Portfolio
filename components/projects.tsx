@@ -101,7 +101,7 @@ export function Projects() {
                 {project.github && (
 
                   <Button variant="outline" size="sm" className="flex-1 sm:flex-none text-xs sm:text-sm bg-transparent">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" style={{display:"flex"}}>
                     <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                     Code
                        </a>
