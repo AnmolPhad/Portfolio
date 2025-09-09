@@ -29,5 +29,20 @@
       "React.js"
     ],
     "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Indian Railway",
+    "description": "A Smart Railway and Waste Segregation web app built with React that promotes cleaner travel. Users can explore trains, interact with digital railway features, and learn about smart waste management. The app has a modern UI, works across desktop and mobile, and makes railway journeys more sustainable and engaging.",
+    "image": "/rail.png",
+    "link": "https://indian-railway-two.vercel.app/",
+    "github": "https://github.com/AnmolPhad/Indian-Railway",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js"
+    ],
+    "featured": true
   }
 ]
