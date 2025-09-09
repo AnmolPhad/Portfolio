@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Left side - Name and tagline */}
           <div className="text-center md:text-left">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">Shubham Dhas</h3>
+            <h3 className="text-lg sm:text-xl font-bold mb-2">Anmol Phad</h3>
             <p className="text-sidebar-foreground/80 text-sm sm:text-base">
               Frontend Developer & Creative Problem Solver
             </p>
@@ -16,7 +16,7 @@ export function Footer() {
           {/* Right side - Social links */}
           <div className="flex space-x-4 sm:space-x-6">
             <a
-              href="https://github.com/Dhasshubham"
+              href="https://github.com/AnmolPhad"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sidebar-foreground/80 hover:text-sidebar-primary transition-colors duration-200 p-2"
@@ -25,7 +25,7 @@ export function Footer() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/shubham-dhas-4305a9252"
+              href="https://www.linkedin.com/in/anmol-phad-6571a8292"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sidebar-foreground/80 hover:text-sidebar-primary transition-colors duration-200 p-2"
@@ -34,7 +34,7 @@ export function Footer() {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
-              href="mailto:shubhamdhas123@gmail.com"
+              href="mailto:anmolphad60@gmail.com"
               className="text-sidebar-foreground/80 hover:text-sidebar-primary transition-colors duration-200 p-2"
             >
               <Mail className="h-5 w-5 sm:h-6 sm:w-6" />

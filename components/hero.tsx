@@ -85,7 +85,7 @@ export function Hero() {
               }`}
             >
               <a
-                href="https://github.com/Dhasshubham"
+                href="https://github.com/AnmolPhad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-all duration-200 transform hover:scale-110 hover:-translate-y-1 p-2"
@@ -94,7 +94,7 @@ export function Hero() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="www.linkedin.com/in/shubham-dhas-4305a9252"
+                href="https://www.linkedin.com/in/anmol-phad-6571a8292"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-all duration-200 transform hover:scale-110 hover:-translate-y-1 p-2"
@@ -103,7 +103,7 @@ export function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a
-                href="mailto:shubhamdhas123@gmail.com"
+                href="mailto:anmolphad60@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-all duration-200 transform hover:scale-110 hover:-translate-y-1 p-2"
               >
                 <Mail className="h-5 w-5 sm:h-6 sm:w-6" />

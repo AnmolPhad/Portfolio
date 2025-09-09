@@ -157,10 +157,10 @@ export function Contact() {
                   <div>
                     <p className="font-medium text-foreground text-sm sm:text-base">Email</p>
                     <a
-                      href="mailto:shubhamdhas123@gmail.com"
+                      href="mailto:anmolphad60@gmail.com"
                       className="text-muted-foreground hover:text-accent transition-colors duration-200 text-sm sm:text-base"
                     >
-                      shubhamdhas123@gmail.com
+                      anmolphad60@gmail.com
                     </a>
                   </div>
                 </div>
@@ -170,10 +170,10 @@ export function Contact() {
                   <div>
                     <p className="font-medium text-foreground text-sm sm:text-base">Phone</p>
                     <a
-                      href="tel:+919322278993"
+                      href="tel:+919552805582"
                       className="text-muted-foreground hover:text-accent transition-colors duration-200 text-sm sm:text-base"
                     >
-                      +91 9322278993
+                      +91 9552805582
                     </a>
                   </div>
                 </div>

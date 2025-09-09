@@ -41,7 +41,7 @@ export function Header() {
         <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-lg sm:text-xl font-bold text-foreground">Shubham Dhas</h1>
+            <h1 className="text-lg sm:text-xl font-bold text-foreground">Anmol Phad</h1>
           </div>
 
           {/* Desktop Navigation */}

@@ -2,9 +2,9 @@
 
 A modern, responsive portfolio website built with Next.js and React, featuring dynamic project displays, interactive animations, and a clean, professional design.
 
-Your Name - [shubhamdhas123@gmail.com](mailto:shubhamdhas123@gmail.com)
+Your Name - [anmolphad60@gmail.com](mailto:anmolphad60@gmail.com)
 
-Project Link: [https://github.com/Dhasshubham/portfolio](https://github.com/Dhasshubham/portfolio)
+Project Link: [https://github.com/AnmolPhad/portfolio](https://github.com/AnmolPhad/portfolio)
 
 Live Demo: [https://portfolio-shubhamdhas-projects.vercel.app/](https://portfolio-shubhamdhas-projects.vercel.app/)
 
