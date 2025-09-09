@@ -86,28 +86,35 @@ export function Projects() {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="flex gap-2 p-4 sm:p-6 pt-0">
-                {project.link && (
-                  <Button
-                    size="sm"
-                    className="bg-accent hover:bg-accent/90 text-accent-foreground flex-1 sm:flex-none text-xs sm:text-sm"
-                  >
-                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                    Live Demo
-                     </a>
-                  </Button>
-                )}
-                {project.github && (
+             <CardFooter className="flex gap-2 p-4 sm:p-6 pt-0">
+  {project.link && (
+    <Button
+      asChild
+      size="sm"
+      className="bg-accent hover:bg-accent/90 text-accent-foreground flex-1 sm:flex-none text-xs sm:text-sm"
+    >
+      <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center">
+        <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+        Live Demo
+      </a>
+    </Button>
+  )}
 
-                  <Button variant="outline" size="sm" className="flex-1 sm:flex-none text-xs sm:text-sm bg-transparent">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" style={{display:"flex"}}>
-                    <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                    Code
-                       </a>
-                  </Button>
-                )}
-              </CardFooter>
+  {project.github && (
+    <Button
+      asChild
+      variant="outline"
+      size="sm"
+      className="flex-1 sm:flex-none text-xs sm:text-sm bg-transparent"
+    >
+      <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center">
+        <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+        Code
+      </a>
+    </Button>
+  )}
+</CardFooter>
+
             </Card>
           ))}
         </div>
